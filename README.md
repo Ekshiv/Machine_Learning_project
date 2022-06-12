@@ -8,3 +8,10 @@
 2. [Heroku Account](https://dashboard.heroku.com/login)
 3. [VS Code IDE](https://code.visualstudio.com/download)
 4. [GIT cli](https://git-scm.com/downloads)
+
+Creating conda environment
+```
+conda create -p <env_name> python==3.7 -y
+
+conda activate venv
+```
