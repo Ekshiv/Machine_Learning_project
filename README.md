@@ -109,4 +109,9 @@ _To stop docker conatiner_
 After setup is done 
 ```
 python setup.py install
+
+```
+OR
+```
+pip install -r requiremts.txt
 ```
