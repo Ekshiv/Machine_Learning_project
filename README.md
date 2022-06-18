@@ -103,4 +103,10 @@ _To check running container in docker_
 _To stop docker conatiner_
 
 ```docker stop <container_id>
+
+```
+
+After setup is done 
+```
+python setup.py install
 ```
