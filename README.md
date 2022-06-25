@@ -115,3 +115,9 @@ OR
 ```
 pip install -r requiremts.txt
 ```
+
+
+Install ipykernel
+```
+pip install ipykernel
+```
