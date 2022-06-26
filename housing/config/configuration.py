@@ -22,7 +22,7 @@ class Configuartion:
             raise HousingException(e,sys) from e
 
 
-    def get_data_ingestion_config(self) ->DataIngestionConfig:
+    def get_data_ingestion_config(self) -> DataIngestionConfig:
         try:
             artifact_dir = self.training_pipeline_config.artifact_dir
             data_ingestion_artifact_dir=os.path.join(
@@ -76,13 +76,13 @@ class Configuartion:
     def get_model_trainer_config(self) -> ModelTrainerConfig:
         pass
 
-    def get_model_evaluation_config(self) ->ModelEvaluationConfig:
+    def get_model_evaluation_config(self) -> ModelEvaluationConfig:
         pass
 
     def get_model_pusher_config(self) -> ModelPusherConfig:
         pass
 
-    def get_training_pipeline_config(self) ->TrainingPipelineConfig:
+    def get_training_pipeline_config(self) -> TrainingPipelineConfig:
         try:
             training_pipeline_config = self.config_info[TRAINING_PIPELINE_CONFIG_KEY]
             artifact_dir = os.path.join(ROOT_DIR,
