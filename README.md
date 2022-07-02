@@ -121,3 +121,14 @@ Install ipykernel
 ```
 pip install ipykernel
 ```
+
+
+##### DATA_DRIFT: Whenever there is change occured in new dataset based on statistic when compare to old dataset
+
+To automate data_drift we have to install a lib :
+```
+pip install evidently
+```
+
+### Assignment: In the component/validation.py
+### Assignment: Write a function to get training file path from artifact dir
