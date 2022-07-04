@@ -132,3 +132,13 @@ pip install evidently
 
 ### Assignment: In the component/validation.py
 ### Assignment: Write a function to get training file path from artifact dir
+
+To create pickle-file(Serialization) we can either use pickle or dill library
+
+```
+pip instal dill
+```
+OR
+```
+pip install pick
+```
