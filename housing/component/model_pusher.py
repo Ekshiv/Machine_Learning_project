@@ -12,7 +12,7 @@ class ModelPusher:
                  model_evaluation_artifact: ModelEvaluationArtifact
                  ):
         try:
-            logging.info(f"{'>>' * 30}Model Pusher log started.{'<<' * 30} ")
+            logging.info(f"{'>>' * 10}Model Pusher log started.{'<<' * 10} ")
             self.model_pusher_config = model_pusher_config
             self.model_evaluation_artifact = model_evaluation_artifact
 
