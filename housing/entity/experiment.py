@@ -1,6 +1,3 @@
-
-
-
 class Experiment:
     running_status=False
     def __new__(cls,*args,**kwargs):
